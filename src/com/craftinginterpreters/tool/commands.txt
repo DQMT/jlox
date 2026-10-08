@@ -1,0 +1,6 @@
+cd out/production/jlox
+
+
+java com.craftinginterpreters.tool.GenerateAst .
+
+java com.craftinginterpreters.lox.Lox ../code.txt
